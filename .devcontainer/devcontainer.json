@@ -1,0 +1,7 @@
+{
+  "name": "Golang Dev Container",
+  "context": "..",
+  "dockerFile": "../Dockerfile.dev",
+  "mounts": ["source=${localWorkspaceFolder},target=/app,type=bind"],
+  "workspaceFolder": "/app"
+}
