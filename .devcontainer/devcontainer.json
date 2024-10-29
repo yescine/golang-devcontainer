@@ -3,5 +3,10 @@
   "context": "..",
   "dockerFile": "../Dockerfile.dev",
   "mounts": ["source=${localWorkspaceFolder},target=/app,type=bind"],
-  "workspaceFolder": "/app"
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "extensions": ["golang.go"]
+    }
+  }
 }
